@@ -482,6 +482,7 @@
       guard++;
     } while (half.scrollWidth < SAFE_MARQUEE_WIDTH && guard < 30);
     track.appendChild(half.cloneNode(true));
+    track.style.animationDuration = (half.scrollWidth / MARQUEE_PX_PER_SECOND) + 's';
   }
 
   var brunchIcons = ['assets/brand/brunch-icon-a.svg','assets/brand/brunch-icon-c.svg','assets/brand/brunch-icon-b.svg','assets/brand/brunch-icon-d.svg'];
