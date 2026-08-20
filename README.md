@@ -1,6 +1,6 @@
 # S°ORA Landing Page
 
-This is the S°ORA restaurant website — a single static page (`index.html`) plus an `assets/` folder of images, icons, and menu PDFs. No build step, no server-side code — just HTML/CSS/JS you can open directly or host anywhere that serves static files (GitHub Pages, Netlify, etc.).
+This is the S°ORA restaurant website — a single static page (`index.html`) plus an `assets/` folder of images, icons, and menu PDFs. 
 
 ## Replacing a photo (no coding needed)
 
