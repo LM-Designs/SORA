@@ -472,6 +472,8 @@
   // and shows an empty gap before it wraps. ----
   var SAFE_MARQUEE_WIDTH = 2600;
 
+  var MARQUEE_PX_PER_SECOND = 25;
+  
   function fillMarquee(track, halfClassName, appendOneCycle){
     var half = document.createElement('div');
     half.className = halfClassName;
@@ -480,7 +482,7 @@
     do {
       appendOneCycle(half);
       guard++;
-    } while (half.scrollWidth < SAFE_MARQUEE_WIDTH && guard < 20);
+    } while (half.scrollWidth < SAFE_MARQUEE_WIDTH && guard < 30);
     track.appendChild(half.cloneNode(true));
   }
 
