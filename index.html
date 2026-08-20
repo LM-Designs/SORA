@@ -480,7 +480,7 @@
     do {
       appendOneCycle(half);
       guard++;
-    } while (half.scrollWidth < SAFE_MARQUEE_WIDTH && guard < 30);
+    } while (half.scrollWidth < SAFE_MARQUEE_WIDTH && guard < 20);
     track.appendChild(half.cloneNode(true));
   }
 
